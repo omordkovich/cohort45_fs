@@ -8,7 +8,7 @@ export default function Homework01() {
         src="../../../../src/assets/avatar01.jpg"
         alt="image"
       />
-      <div>
+      <div className="text-field">
         <div className="name">
           <p>Name:</p>
           <p>Oleg Mordkovich</p>
