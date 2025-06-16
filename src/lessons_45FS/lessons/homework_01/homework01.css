@@ -1,0 +1,27 @@
+.card {
+  border-radius: 20px;
+  background-color: rgb(73, 68, 68);
+  padding: 30px;
+  width: 300px;
+  box-shadow: 5px 5px 10px #0000003b;
+}
+
+.avatar {
+  width: 200px;
+  border: solid white 1px;
+  border-radius: 20px;
+}
+
+.text-field {
+  display: flex;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hobbys {
+  display: flex;
+  justify-content: space-between;
+}
