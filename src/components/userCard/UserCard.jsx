@@ -10,7 +10,11 @@ export default function UserCard({ name, age, lastname }) {
       <p>Name: {name}</p>
       <p>Age: {age}</p>
       <p>Lastname: {lastname}</p>
-      <MyButton func={handleClick} text={`Choose ${name} ${lastname}`} />
+      <MyButton
+        type={"submit"}
+        func={handleClick}
+        text={`Choose ${name} ${lastname}`}
+      />
     </div>
   );
 }
