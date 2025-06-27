@@ -1,10 +1,10 @@
 import "./App.css";
-import Homework01 from "./lessons_45FS/lessons/homework_01/Homework01.jsx";
+import Homework_03 from "./lessons_45FS/lessons/homework_03/Homework_03.jsx";
 
 function App() {
   return (
     <>
-      <Homework01 />
+      <Homework_03 />
     </>
   );
 }
