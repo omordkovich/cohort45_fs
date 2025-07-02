@@ -20,7 +20,7 @@ export default function LoginForm() {
         />
         <MyInput
           name="password"
-          type="text"
+          type="password"
           placeholder="Enter your password"
           label="Password: "
         />
