@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MyButton from "../../../components/myButton/MyButton";
+import Feedback from "../../../components/feedback/Feedback";
 
 export default function Homework_04() {
   const [count, setCount] = useState(0);
@@ -45,6 +46,7 @@ export default function Homework_04() {
       ) : (
         <></>
       )}
+      <Feedback />
     </div>
   );
 }
